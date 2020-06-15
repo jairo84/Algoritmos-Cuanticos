@@ -42,7 +42,7 @@ IBMQ.load_account()
 # In[9]:
 provider=IBMQ.get_provider('ibm-q')
 # In[10]:
-qcomp=provider.get_backend('ibmq_qasm_simulator')
+qcomp=provider.get_backend('ibmq_16_melbourne')
 # In[11]:
 job=execute(circuit,backend=qcomp)
 # In[12]:
